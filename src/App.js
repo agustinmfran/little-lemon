@@ -1,10 +1,15 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 import "./index.css";
 
 function App() {
   return (
-    <h1 className="flex justify-center items-center font-bold text-red-500">
-      Hello World
-    </h1>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
